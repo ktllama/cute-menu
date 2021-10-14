@@ -7,10 +7,21 @@ header {
   width: 100%;
 }
 
+div.number {
+  font-size: 1.5em;
+  border: 3px solid black;
+  border-radius: 20px;
+  width: 70%;
+  margin: 5% auto 5% auto;
+  text-align: center;
+}
+
 .wrap {
   position: relative;
 }
-div {
+.chicken,
+.beef,
+.sushi {
   width: 30%;
   position: absolute;
   right: -3px;
