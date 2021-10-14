@@ -51,21 +51,49 @@ div.number:hover {
   background-color: rgb(219, 219, 150);
 }
 
-footer > img {
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+img,
+div.phone,
+button {
   border-radius: 8px;
   margin-top: 0;
-  border: 3px black solid;
   margin-bottom: 6%;
   margin-left: 3%;
   margin-right: 3%;
 }
 
 footer {
+  position: relative;
   display: inline-block;
   text-align: center;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.phoneicon {
+  display: inline-block;
+  position: absolute;
+  box-sizing: border-box;
+  width: 45%;
+  height: 105px;
+  bottom: 6%;
+  right: 34%;
+  background-color: khaki;
+  border-radius: 10px;
+  font-size: 1.7em;
+  border: 3px black solid;
+  padding: 10px;
+  border-radius: 8px;
 }
 
 /********DESKTOP***********/
@@ -84,6 +112,21 @@ footer {
   div.number {
     display: none;
   }
+  .phoneicon {
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 30%;
+    height: 120px;
+    bottom: 5%;
+    right: 32%;
+    background-color: khaki;
+    border-radius: 10px;
+    font-size: 1.7em;
+    border: 3px black solid;
+    padding: 10px;
+    border-radius: 8px;
+  }
 }
 
 /**********TABLET*******/
@@ -99,6 +142,24 @@ footer {
     margin-right: 2%;
     margin-bottom: 5%;
     padding: 5% 4% 5% 4%;
+  }
+
+  .phoneicon {
+    animation: fade 3s;
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 50%;
+    height: 105px;
+    bottom: 6%;
+    right: 25%;
+    left: 25%;
+    background-color: khaki;
+    border-radius: 10px;
+    font-size: 1.7em;
+    border: 3px black solid;
+    padding: 10px;
+    border-radius: 8px;
   }
 
   .block {
@@ -122,6 +183,24 @@ footer {
     margin: auto;
     margin-bottom: 5%;
     padding: 5% 4% 5% 4%;
+  }
+
+  .phoneicon {
+    animation: fade 3s;
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 85%;
+    height: 105px;
+    bottom: 6%;
+    right: 4%;
+    left: 4%;
+    background-color: khaki;
+    border-radius: 10px;
+    font-size: 1.7em;
+    border: 3px black solid;
+    padding: 10px;
+    border-radius: 8px;
   }
 
   footer > img {
