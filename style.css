@@ -51,11 +51,12 @@ div.number:hover {
 }
 
 footer > img {
-  border-radius: 5px;
+  border-radius: 8px;
   margin-top: 0;
   border: 3px black solid;
-  padding: 6%;
   margin-bottom: 6%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 footer {
@@ -78,6 +79,10 @@ footer {
     margin: 0% 1.5% 5% 1.5%;
     padding: 5% 1.5% 5% 1.5%;
   }
+
+  div.number {
+    display: none;
+  }
 }
 
 /**********TABLET*******/
@@ -97,6 +102,10 @@ footer {
 
   .block {
     width: 95%;
+  }
+
+  div.number {
+    display: none;
   }
 }
 
