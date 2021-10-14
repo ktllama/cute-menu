@@ -1,0 +1,83 @@
+body {
+  font-family: 'comic sans MS', Arial, Helvetica, sans-serif;
+}
+header {
+  display: block;
+  margin-bottom: 5%;
+  width: 100%;
+}
+
+.wrap {
+  position: relative;
+}
+div {
+  width: 30%;
+  position: absolute;
+  right: -3px;
+  top: -3px;
+  padding: 2px;
+  font-size: 1.5em;
+  text-align: center;
+  border: black 3px solid;
+  font-family: 'comic san MS', Arial, Helvetica, sans-serif;
+}
+.chicken {
+  background-color: rgb(230, 166, 159);
+}
+
+.beef {
+  background-color: rgba(207, 55, 55, 0.795);
+}
+
+.sushi {
+  background-color: rgb(219, 219, 150);
+}
+
+/********DESKTOP***********/
+@media (min-width: 992px) {
+  section {
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    border: 3px black solid;
+    background-color: grey;
+    width: 30%;
+    margin: 0% 1.5% 5% 1.5%;
+    padding: 5% 1.5% 5% 1.5%;
+  }
+}
+
+/**********TABLET*******/
+@media (min-width: 768px) and (max-width: 991px) {
+  section {
+    display: inline-block;
+    border: 3px black solid;
+    background-color: grey;
+    width: 45%;
+    padding: 3%;
+    box-sizing: border-box;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    padding: 5% 4% 5% 4%;
+  }
+
+  .block {
+    width: 95%;
+  }
+}
+
+/**********MOBILE*********/
+@media (max-width: 767px) {
+  section {
+    border: 3px black solid;
+    background-color: grey;
+    width: 85%;
+    margin: 5% auto;
+    padding: 3%;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 5%;
+    padding: 5% 4% 5% 4%;
+  }
+}
