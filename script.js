@@ -15,4 +15,6 @@
         box.innerHTML ='<img src="2.png" class="img" alt="phone" width="100em">';
     });
 
+
+
 })();

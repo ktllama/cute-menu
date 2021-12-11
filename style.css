@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Balsamiq+Sans&family=Dosis:wght@300&family=Fuzzy+Bubbles&family=Rubik:wght@300&display=swap');
+
 body {
-  font-family: 'comic sans MS', Arial, Helvetica, sans-serif;
-}
+  font-family: 'Rubik', sans-serif;}
 header {
   display: block;
   margin-bottom: 5%;
@@ -37,8 +38,7 @@ div.number:hover {
   font-size: 1.5em;
   text-align: center;
   border: black 3px solid;
-  font-family: 'comic san MS', Arial, Helvetica, sans-serif;
-}
+  font-family: 'Architects Daughter', cursive;}
 .chicken {
   background-color: rgb(230, 166, 159);
 }
@@ -111,6 +111,10 @@ footer {
 
   div.number {
     display: none;
+  }
+
+  a {
+    text-decoration: none;
   }
   .phoneicon {
     display: inline-block;
@@ -205,5 +209,9 @@ footer {
 
   footer > img {
     width: 20%;
+  }
+
+  a{
+    text-decoration: none;
   }
 }
